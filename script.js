@@ -1,4 +1,4 @@
-let hora = parseInt (prompt("que hora es? formato de 24h"))
+/*let hora = parseInt (prompt("que hora es? formato de 24h"))
 
 if (hora>=0 && hora<6){
 document.write("buena madrugada")
@@ -20,12 +20,16 @@ let imc = peso/(altura*altura)
 if(imc<18.5){
  document.write("usted esta en el rango de peso insuficiente")
 }
-else if(imc>18.5 && imc<25.0){
-document.write("usted esta en el rango de peso normal o saludable")
-}
-else if(imc>25.0 && imc>30.0){
-    document.write("usted esta en el rango de sobrepeso")
-}
-if(imc>30.0){
-    document.write("usted esta en el rango de obesidad")
-   }
+    else if(imc>18.5 && imc<25.0){
+    document.write("usted esta en el rango de peso normal o saludable")
+    }
+        else if(imc>25.0 && imc>30.0){
+        document.write("usted esta en el rango de sobrepeso")
+        }
+            if(imc>30.0){
+            document.write("usted esta en el rango de obesidad")
+            }*/
+
+
+let numO =parseInt((Math.random()*100)+1);
+console.log(numO)
