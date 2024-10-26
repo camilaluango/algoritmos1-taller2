@@ -1,4 +1,6 @@
 document.write("ejercicio 1","<br>")
+
+
 let hora = parseInt (prompt("que hora es? formato de 24h"))
 
 if (hora>=0 && hora<6){
@@ -13,7 +15,11 @@ else if(hora>12 && hora<=19){
 else if(hora>19 && hora<=23){
     document.write("buenas noches ")
 }
+
+
 document.write("<br>","ejercicio 2 ","<br>")
+
+
 let altura = parseFloat (prompt("cual es su altura? "))
 let peso =parseFloat (prompt("cual es su peso? "))
 let imc = peso/(altura*altura)
@@ -31,7 +37,10 @@ if(imc<18.5){
             document.write("usted esta en el rango de obesidad")
             }
 
+
 document.write("<br>","ejercicio 3","<br>")
+
+
 let numO =parseInt((Math.random()*100)+1);
 console.log(numO)
 alert("adivina el numero")
