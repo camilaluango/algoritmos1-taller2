@@ -16,3 +16,7 @@ else if(hora>19 && hora<=23){
 let altura = parseFloat (prompt("cual es su altura? "))
 let peso =parseFloat (prompt("cual es su peso? "))
 let imc = peso/(altura*altura)
+
+if(imc<18.5){
+ document.write("usted esta en el rango de peso insuficiente")
+}
