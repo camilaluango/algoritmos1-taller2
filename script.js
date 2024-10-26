@@ -33,5 +33,24 @@ if(imc<18.5){
 
 let numO =parseInt((Math.random()*100)+1);
 console.log(numO)
-document.write("adivina el numero")
-let posicion = parseInt(prompt("ingresa un numero"))
+alert("adivina el numero")
+
+let opor = 6
+while(opor>0){
+    alert(`tienes ${opor} oportunidades`)
+    let numA = parseInt(prompt("ingresa un numero"))
+    if (numA==numO){
+        document.write("ganaste")
+        break
+    }
+    else if (numA>numO){
+        alert("el numero es mayor al numero secreto")
+    }
+    else if (numA<numO){
+        alert("el numero es menor al numero secreto")
+    }
+    opor--
+}
+if (opor==0){
+    document.write("perdiste")
+}
