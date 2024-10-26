@@ -6,3 +6,6 @@ document.write("buena madrugada")
 else if(hora>=6 && hora<=12){
 document.write("buenos dias")
 }
+else if(hora>12 && hora<=19){
+    document.write("buenas tardes")
+}
