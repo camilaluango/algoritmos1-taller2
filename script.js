@@ -20,3 +20,6 @@ let imc = peso/(altura*altura)
 if(imc<18.5){
  document.write("usted esta en el rango de peso insuficiente")
 }
+else if(imc>18.5 && imc<25.0){
+document.write("usted esta en el rango de peso normal o saludable")
+}
