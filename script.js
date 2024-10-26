@@ -25,4 +25,7 @@ document.write("usted esta en el rango de peso normal o saludable")
 }
 else if(imc>25.0 && imc>30.0){
     document.write("usted esta en el rango de sobrepeso")
-    }
+}
+if(imc>30.0){
+    document.write("usted esta en el rango de obesidad")
+   }
