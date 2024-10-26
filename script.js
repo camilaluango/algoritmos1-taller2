@@ -33,3 +33,5 @@ if(imc<18.5){
 
 let numO =parseInt((Math.random()*100)+1);
 console.log(numO)
+document.write("adivina el numero")
+let posicion = parseInt(prompt("ingresa un numero"))
